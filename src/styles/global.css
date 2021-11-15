@@ -25,6 +25,26 @@
     --white-blue-40-50: hsl(200, 50%, 40%);
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--grey-80); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--grey-60); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--grey-30); 
+}
+
 body{
     background-color: var(--black); 
 }
