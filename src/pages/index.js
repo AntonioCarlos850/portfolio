@@ -34,14 +34,14 @@ export default function Home() {
               </div> 
               <div id={styles.about}>
                   <p>
-                  <b>Programador e desenvolvedor desde 2020, sendo desenvolvedor full stack</b> atuando principalmente com PHP, JAVA, HTML, 
-                  JavaScript e CSS, mas sempre estando aberto ao uso de novas tecnologias para desenvolvimento.<br/><br/>
-                  <b>Teve início na área em 2015, onde fez seu primeiro curso de introdução à computação, descobrindo assim sua vocação.</b> 
-                  Trabalhou inicialmente com montagem e manutenção de computadores, mas após a ingressão no curso de Técnico em Informática 
-                  no Instituto Federal do Paraná, teve seu primeiro contato com a programação, assim mudando seu foco na área.<br/><br/>
-                  <b>Tendo sua primeira experiência profissional como desenvolvedor na startup Portal Vegano, onde trabalha atualmente.</b> Assim, 
-                  conseguindo obter conhecimento de mercado e relacionamento com outras pessoas, desenvolvendo o trabalho em equipe e o 
-                  relacionamento com clientes.<br/><br/>
+                    <b>Programador e desenvolvedor desde 2020, sendo desenvolvedor full stack</b> atuando principalmente com PHP, JAVA, HTML, 
+                    JavaScript e CSS, mas sempre estando aberto ao uso de novas tecnologias para desenvolvimento.<br/><br/>
+                    <b>Iniciou na área em 2015, onde fez seu primeiro curso de introdução à computação, descobrindo assim sua vocação.</b> 
+                    &nbsp; Trabalhou inicialmente com montagem e manutenção de computadores, mas após a ingressão no curso de Técnico em Informática 
+                    no Instituto Federal do Paraná, teve seu primeiro contato com a programação, assim mudando seu foco na área.<br/><br/>
+                    <b>Tendo sua primeira experiência profissional como desenvolvedor na startup Portal Vegano, onde trabalha atualmente.</b> Assim, 
+                    conseguindo obter conhecimento de mercado e relacionamento com outras pessoas, desenvolvendo o trabalho em equipe e o 
+                    relacionamento com clientes.<br/><br/>
                   </p>
               </div>
             </div>
