@@ -1,6 +1,6 @@
 # Portfólio feito com React e Next <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /><img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
 
-#### A base por si é simples, utilizando alguns elementos do React como os components, também foi utilizado os modules nos arquivos css assim diminuindo a chance de uma folha de estilos entrar em conflito com a outra.
+### A base por si é simples, utilizando alguns elementos do React como os components, também foi utilizado os modules nos arquivos css assim diminuindo a chance de uma folha de estilos entrar em conflito com a outra.
 
 ## :one: *Primeira seção*
 <img src="https://user-images.githubusercontent.com/55237822/141868728-f65fa966-9c9e-4028-9d72-5e7c8a150ac2.png" width="800px">
