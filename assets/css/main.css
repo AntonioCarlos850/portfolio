@@ -781,8 +781,10 @@ body {
 
 .intro--banner img {
     position: absolute;
-    bottom: 21px;
-    right: -12px
+    bottom: 22px;
+    right: 62px;
+    filter: drop-shadow(0 0 0.15rem #0f33ff);
+    -webkit-filter: drop-shadow(0 0 0.15rem #0f33ff);
 }
 
 .intro--options {
@@ -876,11 +878,11 @@ body {
     }
 
     .intro--banner h1 {
-        font-size: 55px
+        font-size: 49px;
     }
 
     .intro--banner img {
-        display: none
+        right: -114px;
     }
 }
 
@@ -1346,7 +1348,8 @@ body {
     width: 100%;
     height: 100%;
     background-color: #121212;
-    background-position: center;
+    background-position: bottom;
+    background-image: url("../img/earth.jpg");
     background-size: cover;
     background-repeat: no-repeat
 }
@@ -1367,7 +1370,7 @@ body {
     -webkit-box-pack: end;
     -webkit-justify-content: center;
     -ms-flex-pack: end;
-    justify-content: center;
+    justify-content: flex-end;
     margin: 0 auto
 }
 
