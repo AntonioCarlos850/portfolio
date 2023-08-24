@@ -1758,8 +1758,8 @@ body {
     list-style: none;
     text-align: center;
     visibility: hidden;
-    -webkit-transition: visibility 0s .2s;
-    transition: visibility 0s .2s
+    -webkit-transition: visibility 0s 0s;
+    transition: visibility 0s 0s;
 }
 
 .outer-nav.is-vis {
@@ -1774,7 +1774,7 @@ body {
     height: 100%;
     display: none;
     cursor: pointer;
-    z-index: 11
+    z-index: 11;
 }
 
 .outer-nav--return.is-vis {
