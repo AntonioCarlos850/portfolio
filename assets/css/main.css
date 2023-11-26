@@ -804,13 +804,14 @@ body {
 .intro--options>span {
     max-width: 250px;
     text-decoration: none;
-    color: #282828;
-    -webkit-transition: color .2s ease-in-out;
-    transition: color .2s ease-in-out
+    color: #fff;
+    opacity: 0.12;
+    -webkit-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out
 }
 
 .intro--options>span:hover {
-    color: #fff
+    opacity: 1;
 }
 
 .intro--options h3 {
@@ -1853,4 +1854,54 @@ body {
 .outer-nav li.is-vis:nth-child(5) {
     -webkit-transition-delay: .16s;
     transition-delay: .16s
+}
+
+#sculpture {
+    animation: upDown 5s linear infinite alternate;
+    will-change: transform;
+}
+
+#astronaut {
+    width: 10vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+    mix-blend-mode: exclusion;
+    z-index: 10;
+    will-change: transform;
+    animation: astronautAnimation 20s linear infinite;
+}
+
+@media screen and (max-width: 767px) {
+    #astronaut {
+        width: 25vw;
+        animation: astronautAnimationPhone 20s linear infinite;
+    }
+}
+
+@keyframes astronautAnimationPhone {
+    from {
+        transform: translate(-35vw, 20vh) rotate(-50deg);
+    }
+    to {
+        transform: translate(75vw, -10vh);
+    }
+}
+
+@keyframes astronautAnimation {
+    from {
+        transform: translate(-10vw, 15vh) rotate(-50deg);
+    }
+    to {
+        transform: translate(75vw, -20vh);
+    }
+}
+
+@keyframes upDown {
+    from {
+        transform: translateY(-1rem);
+    }
+    to {
+        transform: translateY(1rem);
+    }
 }
