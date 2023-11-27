@@ -1352,7 +1352,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: #121212;
-    background-position: bottom;
+    background-position: center;
     background-image: url("../img/earth.jpg");
     background-size: cover;
     background-repeat: no-repeat
