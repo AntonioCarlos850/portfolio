@@ -912,7 +912,7 @@ body {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    display: block;
     width: 960px;
     max-width: 80%;
     height: 100%;
@@ -936,12 +936,19 @@ body {
 
 .work h2 {
     margin: 0 0 20px 0;
-    font-size: 30px;
-    text-align: center
+    font-size: 36px;
+    text-align: center;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    width: 100%;
 }
 
 .work--lockup {
-    position: relative
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .work--lockup .slider {
@@ -981,15 +988,20 @@ body {
 }
 
 .work--lockup .slider--item-image {
+    display: block;
     width: 150px;
     height: 150px;
     margin: 0 auto;
     border-radius: 50%;
-    overflow: hidden
+    overflow: hidden;
+    background-color: #fff;
 }
 
 .work--lockup .slider--item-image img {
-    width: 100%
+    width: 90%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .work--lockup .slider--item-left {
@@ -997,7 +1009,7 @@ body {
     left: 0;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    display: block
+    display: none;
 }
 
 .work--lockup .slider--item-right {
@@ -1005,16 +1017,26 @@ body {
     right: 0;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    display: block
+    display: none;
 }
 
 .work--lockup .slider--item-center {
     position: relative;
     top: 30px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    display: block
+    left: 0;
+    display: flex;
+}
+
+.slider--resume {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.slider--resume p {
+    margin-top: 0;
+    margin-bottom: 0.35rem;
 }
 
 .work--lockup .slider--item-center a {
@@ -1023,7 +1045,8 @@ body {
 
 .work--lockup .slider--item-center .slider--item-title {
     margin-top: 25px;
-    font-size: 16px
+    margin-bottom: 1rem;
+    font-size: 21px;
 }
 
 .work--lockup .slider--item-center .slider--item-description {
@@ -1073,6 +1096,19 @@ body {
 }
 
 @media (max-width: 900px) {
+    .work--lockup {
+        position: relative;
+        top: 20%;
+        transform: translateY(0);
+    }
+
+    .work--lockup .slider--item-center {
+        left: 50%;
+        flex-direction: column;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
     .work--lockup .slider--item-image {
         width: 120px;
         height: 120px
