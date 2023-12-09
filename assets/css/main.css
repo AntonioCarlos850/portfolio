@@ -814,7 +814,7 @@ body {
     opacity: 1;
 }
 
-.intro--options h3 {
+.intro--options h2 {
     font-size: 16px;
     text-transform: uppercase
 }
@@ -1908,10 +1908,24 @@ body {
     animation: astronautAnimation 20s linear infinite;
 }
 
+.intro--options span {
+    will-change: opacity;
+    animation: flash 9s ease-in calc(1s*var(--time));
+}
+
 @media screen and (max-width: 767px) {
     #astronaut {
         width: 25vw;
-        animation: astronautAnimationPhone 20s linear infinite;
+        animation: astronautAnimationPhone 20s linear;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: 0.12;
+    }
+    50% {
+        opacity: 1;
     }
 }
 
