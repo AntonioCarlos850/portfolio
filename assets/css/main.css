@@ -1098,7 +1098,7 @@ body {
 @media (max-width: 900px) {
     .work--lockup {
         position: relative;
-        top: 20%;
+        top: 15%;
         transform: translateY(0);
     }
 
