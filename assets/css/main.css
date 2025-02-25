@@ -1913,6 +1913,13 @@ body {
     animation: flash 9s ease-in calc(1s*var(--time));
 }
 
+#pyxpay {
+    width: 75%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-55%) translateX(3%);
+}
+
 @media screen and (max-width: 767px) {
     #astronaut {
         width: 25vw;
