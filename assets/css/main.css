@@ -1920,6 +1920,13 @@ body {
     transform: translateY(-55%) translateX(3%);
 }
 
+#maspix {
+    width: 75%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-55%);
+}
+
 @media screen and (max-width: 767px) {
     #astronaut {
         width: 25vw;
